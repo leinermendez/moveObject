@@ -4,6 +4,8 @@
  */
 package moveobject;
 
+import newpackage1.view.GUIFrame;
+
 /**
  *
  * @author RYZEN
@@ -14,7 +16,8 @@ public class MoveObject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //GUIFrame guiFrame = new GUIFrame(200, 200);
+        GUIFrame guiFrame2 = new GUIFrame();
     }
-    
+
 }
